@@ -1,1 +1,10 @@
-
+city_name = [];
+city_name.append(input("Please enter a city name: "));
+city_name.append(input("Please enter a city name: "));
+city_name.append(input("Please enter a city name: "));
+city_name.append(input("Please enter a city name: "));
+city_name.append(input("Please enter a city name: "));
+#solution
+city_name.insert(1, "enter");
+city_name.pop(2);
+print(city_name);
